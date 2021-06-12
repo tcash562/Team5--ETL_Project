@@ -14,8 +14,9 @@ Using two different Nhl website sources, we extracted team history data and the 
 
 Using Read_HTML we scraped tables from https://www.hockey-reference.com/ and https://www.corsicahockey.com/
 
-<img src="https://raw.githubusercontent.com/tcash562/Team5--ETL_Project/main/Images/Extract-Player_data.png" align:"center" alt="drawing" width="600"/>
-
+<p align:"center">
+<img src="https://raw.githubusercontent.com/tcash562/Team5--ETL_Project/main/Images/Extract-Player_data.png" alt="drawing" width="600"/>
+</p>
 <img src="https://raw.githubusercontent.com/tcash562/Team5--ETL_Project/main/Images/Extract-Team_History_data.png" alt="drawing" width="600"/>
 
 # Transform
@@ -36,13 +37,14 @@ Both dataframes were imported into PostgresSQL.
 
 ## Table Data in PostgresSQL
 
- Player Data 
+Player Data 
 <img src="https://raw.githubusercontent.com/tcash562/Team5--ETL_Project/main/Images/Postgres_Tables_NHL_Player.png" alt="drawing" width="600"/>
- Team Data
+
+Team Data
 <img src="https://raw.githubusercontent.com/tcash562/Team5--ETL_Project/main/Images/Postgres_Tables_NHL_Team.png" alt="drawing" width="600"/>
 
 ## Example: Query
- Find the number of players that are ranked in the top 100 and have never won a Stanley Cup.
+Find the number of players that are ranked in the top 100 and have never won a Stanley Cup.
 
 <img src="https://raw.githubusercontent.com/tcash562/Team5--ETL_Project/main/Images/Postgres_Tables_NHL_Query.png" alt="drawing" width="600"/>
 
